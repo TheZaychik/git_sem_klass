@@ -15,7 +15,7 @@ def main():
     crypter = None
     while True:
         conn, addr = sock.accept()
-
+	print("Hello socket!")
         msg = conn.recv(4096)
         # Получаем данные от клиента
         data = pickle.loads(msg)
