@@ -1,5 +1,8 @@
 class FileCrypter:
     def __init__(self, key: int):
+        '''
+        опа это конструктор
+        '''
         self.key = key
 
     def encryption(self, message: str) -> str:
